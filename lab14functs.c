@@ -18,7 +18,7 @@
  */
 void swapPassByValue(int x, int y) {
     printf("----- Running swapPassByValue -----\n");
-    printf("before swap: x = %i; y = %i\n", x, y);
+    printf("before swap: x = %d; y = %d\n", x, y);
  
     // Creates a temporary value
     int temp;
@@ -32,7 +32,7 @@ void swapPassByValue(int x, int y) {
     // Make y have the same value as temp
     
 
-    printf("after swap: x = %i; y = %i\n", x, y);
+    printf("after swap: x = %d y = %d\n", x, y);
 }
 
 /** ----------------------------------------------------------
@@ -43,7 +43,7 @@ void swapPassByValue(int x, int y) {
  */
 void swapPassByReference(int* ptrX, int* ptrY) {
     printf("----- Running swapPassByReference -----\n");
-    printf("before swap: ptrX = %i; ptrY = %i\n", *ptrX, *ptrY);
+    printf("before swap: ptrX = %d; ptrY = %d\n", *ptrX, *ptrY);
  
     // Creates a temporary int variable
     int temp;
@@ -57,5 +57,5 @@ void swapPassByReference(int* ptrX, int* ptrY) {
     // Set the value stored at ptrY to contain the value stored in temp
     
     
-    printf("after swap: ptrX = %i; ptrY = %i\n", *ptrX, *ptrY);
+    printf("after swap: ptrX = %d; ptrY = %d\n", *ptrX, *ptrY);
 }
